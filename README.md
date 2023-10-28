@@ -1,6 +1,7 @@
 
 安装trustzone虚拟环境，在optee/build目录下交叉编译
-‵‵‵
+
+```
 make run
 
 
