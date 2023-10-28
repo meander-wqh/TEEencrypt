@@ -8,11 +8,11 @@ READELF ?= $(CROSS_COMPILE)readelf
 
 OBJS = main.o
 
-CFLAGS += -Wall -I../ta/include -I$(TEEC_EXPORT)/include -I./include
+CFLAGS += -Wall -std=c11 -I../ta/include -I$(TEEC_EXPORT)/include -I./include
 #Add/link other required libraries here
 LDADD += -lteec -L$(TEEC_EXPORT)/lib
 
-BINARY = TEEencrypt
+BINARY = optee_TEEencrypt
 
 .PHONY: all
 all: $(BINARY)
