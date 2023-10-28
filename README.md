@@ -3,6 +3,7 @@
 
 ```
 make run
+```
 
 
 会出现qemu，normal，secure三个窗口
@@ -13,5 +14,7 @@ qemu窗口输入c运行环境
 这里将需要加密的文件./key放在了usr/bin下
 
 执行：
+
 ```
 optee_TEEencrypt -e ./key RSA
+```
