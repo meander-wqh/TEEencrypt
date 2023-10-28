@@ -2,7 +2,8 @@
 安装trustzone虚拟环境，在optee/build目录下交叉编译
 ‵‵‵
 make run
-```
+
+
 会出现qemu，normal，secure三个窗口
 qemu窗口输入c运行环境
 
@@ -13,4 +14,3 @@ qemu窗口输入c运行环境
 执行：
 ```
 optee_TEEencrypt -e ./key RSA
-```
